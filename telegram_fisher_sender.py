@@ -154,8 +154,8 @@ def main():
 
     oversold_text, overbought_text = split_fisher_output(output)
 
-    baslik_oversold = f"*Fisher Transform Tarama - {tarih}\nOVERSOLD (Alim sinyali)*"
-    baslik_overbought = f"*Fisher Transform Tarama - {tarih}\nOVERBOUGHT (Satis sinyali)*"
+    baslik_oversold = f"*Fisher Transform Tarama - {tarih}\nOVERSOLD *"
+    baslik_overbought = f"*Fisher Transform Tarama - {tarih}\nOVERBOUGHT *"
 
     # OVERSOLD gonder
     if oversold_text.strip():

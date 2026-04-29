@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+bist_sembollar_cache.json
+delisted_stocks.json

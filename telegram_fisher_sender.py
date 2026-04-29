@@ -107,10 +107,26 @@ def filter_output(text: str) -> str:
     return '\n'.join(filtered)
 
 
-def truncate_for_telegram(text: str, max_length: int = 4096) -> str:
-    if len(text) <= max_length:
-        return text
-    return text[:max_length - 100] + "\n\n_[... mesaj kesildi]_"
+def split_fisher_output(text: str) -> tuple:
+    """Fisher ciktisini oversold ve overbought olarak ayirir"""
+    lines = text.split('\n')
+    oversold_lines = []
+    overbought_lines = []
+    current_section = None
+
+    for line in lines:
+        if '[OVERSOLD]' in line:
+            current_section = 'oversold'
+        elif '[OVERBOUGHT]' in line:
+            current_section = 'overbought'
+        elif 'OZET:' in line or '=' * 60 in line:
+            current_section = None
+        elif current_section == 'oversold':
+            oversold_lines.append(line)
+        elif current_section == 'overbought':
+            overbought_lines.append(line)
+
+    return '\n'.join(oversold_lines), '\n'.join(overbought_lines)
 
 
 def main():
@@ -134,19 +150,38 @@ def main():
         sys.exit(1)
 
     telegram = TelegramSender(bot_token, chat_id)
-
     tarih = datetime.now().strftime('%d.%m.%Y')
-    baslik = f"*Fisher Transform Tarama - {tarih}*"
 
-    full_message = f"{baslik}\n\n{output}"
-    full_message = truncate_for_telegram(full_message)
+    oversold_text, overbought_text = split_fisher_output(output)
 
-    print(f"Mense gonderiliyor ({len(full_message)} karakter)...")
-    if telegram.send_message(full_message):
-        print("Basariyla gonderildi!")
+    baslik_oversold = f"*Fisher Transform Tarama - {tarih}\nOVERSOLD (Alim sinyali)*"
+    baslik_overbought = f"*Fisher Transform Tarama - {tarih}\nOVERBOUGHT (Satis sinyali)*"
+
+    # OVERSOLD gonder
+    if oversold_text.strip():
+        msg = f"{baslik_oversold}\n\n{oversold_text}"
+        if len(msg) > 4096:
+            msg = msg[:4096 - 100] + "\n\n_[... mesaj kesildi]_"
+        print(f"[OVERSOLD] Mense gonderiliyor ({len(msg)} karakter)...")
+        if not telegram.send_message(msg):
+            print("OVERSOLD gonderim basarisiz.")
+            sys.exit(1)
     else:
-        print("Gonderim basarisiz.")
-        sys.exit(1)
+        telegram.send_message(f"{baslik_oversold}\n\n_Hic hisse bulunamadi_")
+
+    # OVERBOUGHT gonder
+    if overbought_text.strip():
+        msg = f"{baslik_overbought}\n\n{overbought_text}"
+        if len(msg) > 4096:
+            msg = msg[:4096 - 100] + "\n\n_[... mesaj kesildi]_"
+        print(f"[OVERBOUGHT] Mense gonderiliyor ({len(msg)} karakter)...")
+        if not telegram.send_message(msg):
+            print("OVERBOUGHT gonderim basarisiz.")
+            sys.exit(1)
+    else:
+        telegram.send_message(f"{baslik_overbought}\n\n_Hic hisse bulunamadi_")
+
+    print("Basariyla gonderildi!")
 
 
 if __name__ == '__main__':

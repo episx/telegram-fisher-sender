@@ -154,6 +154,9 @@ def main():
 
     oversold_text, overbought_text = split_fisher_output(output)
 
+    print(f"[DEBUG] Oversold lines: {len(oversold_text)} chars, Overbought lines: {len(overbought_text)} chars")
+    print(f"[DEBUG] Raw output sample (first 500):\n{output[:500]}")
+
     baslik_oversold = f"*Fisher Transform Tarama - {tarih}\nOVERSOLD (Alim sinyali)*"
     baslik_overbought = f"*Fisher Transform Tarama - {tarih}\nOVERBOUGHT (Satis sinyali)*"
 

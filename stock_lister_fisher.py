@@ -9,6 +9,7 @@ Kullanim:
     python stock_lister_fisher.py --hisseler BIST100
     python stock_lister_fisher.py --hisseler BISTALL
     python stock_lister_fisher.py --hisseler THYAO,ASELS,GARAN
+    python stock_lister_fisher.py --json-output data/oversold_today.json
 """
 
 import sys
@@ -16,6 +17,7 @@ import argparse
 from datetime import datetime
 import os
 import io
+import json
 
 from borsa_listesi import BIST100_HISSE, BIST30, tum_bist_hisselerini_getir
 from indikatörler import fisher_hesapla
@@ -122,6 +124,8 @@ def ana():
                         help='Hisse listesi: BIST100, BIST30, BISTALL veya virgulles ayrilmis semboller')
     parser.add_argument('--periyot', type=str, default=PERIYOT,
                         help=f'Veri periyodu (1mo, 3mo, 6mo, 1y). Varsayilan: {PERIYOT}')
+    parser.add_argument('--json-output', type=str, default=None,
+                        help='Oversold hisselerin yazilacagi JSON dosyasi yolu')
 
     args = parser.parse_args()
 
@@ -228,6 +232,31 @@ def ana():
     if hata_listesi:
         print(f"        x {len(hata_listesi)} hisse veri hatasi (delisted olabilir)")
     print("="*60)
+
+    # JSON cikti
+    if args.json_output:
+        oversold_data = {
+            "scanned_at": datetime.now().isoformat(),
+            "stocks": [
+                {
+                    "ticker": hisse,
+                    "fisher": round(değer, 4),
+                    "type": "oversold"
+                }
+                for hisse, değer in al_listesi
+            ] + [
+                {
+                    "ticker": hisse,
+                    "fisher": round(değer, 4),
+                    "type": "overbought"
+                }
+                for hisse, değer in sat_listesi
+            ]
+        }
+        os.makedirs(os.path.dirname(args.json_output), exist_ok=True)
+        with open(args.json_output, "w", encoding="utf-8") as f:
+            json.dump(oversold_data, f, indent=2, ensure_ascii=False)
+        print(f"\n>>> JSON ciktisi kaydedildi: {args.json_output}")
 
 
 if __name__ == '__main__':

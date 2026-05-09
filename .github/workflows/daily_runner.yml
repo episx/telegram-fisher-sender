@@ -1,16 +1,16 @@
-name: Daily Fisher Scan
+name: Daily Stock Checker
 
 on:
   schedule:
-    # Her gün 19:00 UTC+3 = 16:00 UTC
-    - cron: '0 16 * * *'
-  workflow_dispatch:
+    - cron: '0 18 * * *'  # Her gün 18:00 UTC = 21:00 TRT
+  workflow_dispatch:  # Manuel tetikleme için
 
 jobs:
-  run:
+  run-stock-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -18,10 +18,14 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install pandas numpy requests
 
-      - name: Run fisher script
+      - name: Run Stock Checker
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python telegram_fisher_sender.py
+        run: |
+          python stock_diff_checker.py \
+            --token "$TELEGRAM_BOT_TOKEN" \
+            --chat-id "$TELEGRAM_CHAT_ID"

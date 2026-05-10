@@ -8,6 +8,8 @@ on:
 jobs:
   run-stock-check:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
     steps:
@@ -29,3 +31,20 @@ jobs:
           CHAT_ID: ${{ secrets.CHAT_ID }}
         run: |
           python stock_diff_checker.py
+
+      - name: Commit updated stock list
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          if [ -f data/previous_stocks.json ]; then
+            git add data/previous_stocks.json
+            if ! git diff --staged --quiet; then
+              git commit -m "Update previous_stocks.json from daily scan [skip ci]"
+              git push
+              echo "✅ Updated previous_stocks.json committed and pushed"
+            else
+              echo "ℹ️  No changes to previous_stocks.json"
+            fi
+          else
+            echo "⚠️  previous_stocks.json not found"
+          fi

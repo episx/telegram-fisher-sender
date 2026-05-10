@@ -72,10 +72,13 @@ def run_stock_lister(script_path: str, hisseler: str = "BISTALL", periyot: str =
     ]
 
     print(f">>> {script_path} calistiriliyor ({hisseler})...")
+    print(f"    Komut: {' '.join(cmd)}")
     result = subprocess.run(cmd, capture_output=True, text=True)
 
     if result.returncode != 0:
         print(f"! Hata: Script calistirilamadi")
+        print(f"  Return code: {result.returncode}")
+        print(f"  stdout: {result.stdout}")
         print(f"  stderr: {result.stderr}")
         return None, result.returncode
 
@@ -209,12 +212,14 @@ def main():
     # Onceki listeyi yukle
     prev_file = SCRIPT_DIR / args.prev if args.prev else SCRIPT_DIR / "data" / "previous_stocks.json"
     previous_data = load_json(str(prev_file))
-    previous_stocks = get_stock_list_from_json(previous_data) if previous_data else set()
 
-    if previous_data:
-        print(f">>> Onceki liste: {len(previous_stocks)} hisse")
+    if previous_data is None:
+        print(f"! Uyari: {prev_file} bulunamadi veya okunamadi - tum hisseler yeni sayilacak")
+        previous_stocks = set()
     else:
-        print(f">>> Onceki liste yok - tum hisseler yeni sayilir")
+        previous_stocks = get_stock_list_from_json(previous_data)
+        prev_scan_time = previous_data.get("scanned_at", "bilinmiyor")
+        print(f">>> Onceki liste: {len(previous_stocks)} hisse (tarih: {prev_scan_time})")
 
     # Karşılaştır
     new_stocks = current_stocks - previous_stocks
@@ -258,8 +263,13 @@ def main():
 
     # Previous listeyi guncelle
     if not args.no_save:
-        save_json(str(prev_file), current_data)
-        print(f">>> Previous liste guncellendi: {prev_file}")
+        if new_stocks or removed_stocks:
+            save_json(str(prev_file), current_data)
+            print(f">>> Previous liste guncellendi: {len(new_stocks)} eklendi, {len(removed_stocks)} cikarildi")
+            print(f"    Dosya konumu: {prev_file}")
+        else:
+            print(f">>> Hisse listesi degismedi, previous liste guncellenmedi")
+            print(f"    Mevcut liste ayni kalacak: {len(current_stocks)} hisse")
 
     return 0
 

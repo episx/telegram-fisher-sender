@@ -119,6 +119,8 @@ dmypy.json
 
 # Project specific
 config/
-data/
+data/current_scan.json
+data/temp_*.json
 *.json
+!data/previous_stocks.json
 .claude/

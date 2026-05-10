@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pandas numpy requests
+          pip install -r requirements.txt
 
       - name: Run Stock Checker
         env:

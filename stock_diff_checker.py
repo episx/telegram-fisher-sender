@@ -175,9 +175,16 @@ def main():
     # Telegram config yukle
     telegram_config = load_telegram_config()
 
-    # Token ve chat_id'yi config veya argumanndan al
-    bot_token = args.token or telegram_config.get("bot_token") if telegram_config else None
-    chat_id = args.chat_id or telegram_config.get("chat_id") if telegram_config else None
+    # Token ve chat_id'yi config, ortam degiskenleri veya argumanndan al
+    bot_token = (args.token or
+                 os.environ.get("BOT_TOKEN") or
+                 os.environ.get("TELEGRAM_BOT_TOKEN") or
+                 (telegram_config.get("bot_token") if telegram_config else None))
+
+    chat_id = (args.chat_id or
+               os.environ.get("CHAT_ID") or
+               os.environ.get("TELEGRAM_CHAT_ID") or
+               (telegram_config.get("chat_id") if telegram_config else None))
 
     if not bot_token or not chat_id:
         print("! Telegram ayarlari eksik!")

@@ -1,169 +1,154 @@
 {
-  "scanned_at": "2026-05-11T21:55:59.873616",
+  "scanned_at": "2026-05-12T21:58:46.519228",
   "stocks": [
     {
-      "ticker": "ENPRA",
-      "fisher": -3.1612,
-      "type": "oversold"
-    },
-    {
-      "ticker": "GATEG",
-      "fisher": -2.9298,
-      "type": "oversold"
-    },
-    {
       "ticker": "A1CAP",
-      "fisher": -2.9055,
+      "fisher": -2.6812,
       "type": "oversold"
     },
     {
       "ticker": "PASEU",
-      "fisher": -1.9067,
+      "fisher": -1.7326,
       "type": "oversold"
     },
     {
-      "ticker": "BIGCH",
-      "fisher": -1.533,
+      "ticker": "KSTUR",
+      "fisher": -1.6067,
       "type": "oversold"
     },
     {
       "ticker": "EKOS",
-      "fisher": 4.2798,
+      "fisher": 4.686,
       "type": "overbought"
     },
     {
       "ticker": "QTEMZ",
-      "fisher": 3.9756,
+      "fisher": 4.3831,
       "type": "overbought"
     },
     {
       "ticker": "OZATD",
-      "fisher": 3.9492,
-      "type": "overbought"
-    },
-    {
-      "ticker": "AVPGY",
-      "fisher": 3.6081,
+      "fisher": 4.3575,
       "type": "overbought"
     },
     {
       "ticker": "DMRGD",
-      "fisher": 3.5586,
+      "fisher": 3.9677,
       "type": "overbought"
     },
     {
-      "ticker": "EFOR",
-      "fisher": 3.325,
-      "type": "overbought"
-    },
-    {
-      "ticker": "BESTE",
-      "fisher": 2.9395,
+      "ticker": "AVPGY",
+      "fisher": 3.3221,
       "type": "overbought"
     },
     {
       "ticker": "BIGEN",
-      "fisher": 2.8823,
-      "type": "overbought"
-    },
-    {
-      "ticker": "DOFRB",
-      "fisher": 2.873,
+      "fisher": 3.2555,
       "type": "overbought"
     },
     {
       "ticker": "BESLR",
-      "fisher": 2.8648,
-      "type": "overbought"
-    },
-    {
-      "ticker": "EUPWR",
-      "fisher": 2.8147,
+      "fisher": 3.2151,
       "type": "overbought"
     },
     {
       "ticker": "KTLEV",
-      "fisher": 2.7951,
+      "fisher": 3.0794,
       "type": "overbought"
     },
     {
-      "ticker": "YIGIT",
-      "fisher": 2.5713,
+      "ticker": "EFOR",
+      "fisher": 2.9905,
       "type": "overbought"
     },
     {
       "ticker": "TABGD",
-      "fisher": 2.5266,
-      "type": "overbought"
-    },
-    {
-      "ticker": "ALTNY",
-      "fisher": 2.5049,
-      "type": "overbought"
-    },
-    {
-      "ticker": "SURGY",
-      "fisher": 2.4718,
-      "type": "overbought"
-    },
-    {
-      "ticker": "EBEBK",
-      "fisher": 2.3419,
+      "fisher": 2.9358,
       "type": "overbought"
     },
     {
       "ticker": "LMKDC",
-      "fisher": 2.341,
+      "fisher": 2.7551,
+      "type": "overbought"
+    },
+    {
+      "ticker": "BESTE",
+      "fisher": 2.6583,
+      "type": "overbought"
+    },
+    {
+      "ticker": "YIGIT",
+      "fisher": 2.2086,
+      "type": "overbought"
+    },
+    {
+      "ticker": "ALTNY",
+      "fisher": 2.1384,
+      "type": "overbought"
+    },
+    {
+      "ticker": "EBEBK",
+      "fisher": 2.1299,
       "type": "overbought"
     },
     {
       "ticker": "DCTTR",
-      "fisher": 2.1947,
-      "type": "overbought"
-    },
-    {
-      "ticker": "SKYMD",
-      "fisher": 2.1609,
-      "type": "overbought"
-    },
-    {
-      "ticker": "TARKM",
-      "fisher": 1.8734,
-      "type": "overbought"
-    },
-    {
-      "ticker": "LXGYO",
-      "fisher": 1.7916,
+      "fisher": 2.1108,
       "type": "overbought"
     },
     {
       "ticker": "MEGMT",
-      "fisher": 1.7382,
+      "fisher": 2.1007,
       "type": "overbought"
     },
     {
-      "ticker": "GENKM",
-      "fisher": 1.726,
+      "ticker": "DOFRB",
+      "fisher": 2.0204,
       "type": "overbought"
     },
     {
-      "ticker": "PATEK",
-      "fisher": 1.6833,
+      "ticker": "SURGY",
+      "fisher": 1.9704,
+      "type": "overbought"
+    },
+    {
+      "ticker": "TARKM",
+      "fisher": 1.9366,
+      "type": "overbought"
+    },
+    {
+      "ticker": "SKYMD",
+      "fisher": 1.9255,
       "type": "overbought"
     },
     {
       "ticker": "AKHAN",
-      "fisher": 1.5696,
-      "type": "overbought"
-    },
-    {
-      "ticker": "A1YEN",
-      "fisher": 1.5649,
+      "fisher": 1.8739,
       "type": "overbought"
     },
     {
       "ticker": "CWENE",
-      "fisher": 1.5008,
+      "fisher": 1.8519,
+      "type": "overbought"
+    },
+    {
+      "ticker": "A1YEN",
+      "fisher": 1.8291,
+      "type": "overbought"
+    },
+    {
+      "ticker": "LXGYO",
+      "fisher": 1.8179,
+      "type": "overbought"
+    },
+    {
+      "ticker": "OZYSR",
+      "fisher": 1.7941,
+      "type": "overbought"
+    },
+    {
+      "ticker": "PATEK",
+      "fisher": 1.6401,
       "type": "overbought"
     }
   ]

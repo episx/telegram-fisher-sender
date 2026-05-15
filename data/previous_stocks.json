@@ -1,119 +1,14 @@
 {
-  "scanned_at": "2026-05-14T21:56:49.430586",
+  "scanned_at": "2026-05-15T21:39:39.097512",
   "stocks": [
     {
-      "ticker": "A1CAP",
-      "fisher": -2.306,
-      "type": "oversold"
-    },
-    {
-      "ticker": "KSTUR",
-      "fisher": -1.816,
-      "type": "oversold"
-    },
-    {
-      "ticker": "OZATD",
-      "fisher": 6.1432,
-      "type": "overbought"
-    },
-    {
-      "ticker": "QTEMZ",
-      "fisher": 4.8784,
-      "type": "overbought"
-    },
-    {
-      "ticker": "DMRGD",
-      "fisher": 4.7459,
-      "type": "overbought"
-    },
-    {
-      "ticker": "BIGEN",
-      "fisher": 3.9379,
-      "type": "overbought"
-    },
-    {
       "ticker": "KTLEV",
-      "fisher": 3.7124,
+      "fisher": 3.9861,
       "type": "overbought"
     },
     {
-      "ticker": "EKOS",
-      "fisher": 3.6379,
-      "type": "overbought"
-    },
-    {
-      "ticker": "BESLR",
-      "fisher": 2.7515,
-      "type": "overbought"
-    },
-    {
-      "ticker": "TABGD",
-      "fisher": 2.6792,
-      "type": "overbought"
-    },
-    {
-      "ticker": "AVPGY",
-      "fisher": 2.6329,
-      "type": "overbought"
-    },
-    {
-      "ticker": "A1YEN",
-      "fisher": 2.3193,
-      "type": "overbought"
-    },
-    {
-      "ticker": "LMKDC",
-      "fisher": 2.2671,
-      "type": "overbought"
-    },
-    {
-      "ticker": "ATAKP",
-      "fisher": 2.2418,
-      "type": "overbought"
-    },
-    {
-      "ticker": "CWENE",
-      "fisher": 2.144,
-      "type": "overbought"
-    },
-    {
-      "ticker": "OZYSR",
-      "fisher": 2.0621,
-      "type": "overbought"
-    },
-    {
-      "ticker": "TARKM",
-      "fisher": 2.0374,
-      "type": "overbought"
-    },
-    {
-      "ticker": "DCTTR",
-      "fisher": 1.9942,
-      "type": "overbought"
-    },
-    {
-      "ticker": "EBEBK",
-      "fisher": 1.8581,
-      "type": "overbought"
-    },
-    {
-      "ticker": "EFOR",
-      "fisher": 1.7777,
-      "type": "overbought"
-    },
-    {
-      "ticker": "DOFER",
-      "fisher": 1.7701,
-      "type": "overbought"
-    },
-    {
-      "ticker": "BESTE",
-      "fisher": 1.7661,
-      "type": "overbought"
-    },
-    {
-      "ticker": "AKFIS",
-      "fisher": 1.6191,
+      "ticker": "MHRGY",
+      "fisher": 2.0432,
       "type": "overbought"
     }
   ]

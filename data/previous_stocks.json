@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-05-16T20:33:25.427764",
+  "scanned_at": "2026-05-17T20:36:18.719269",
   "stocks": [
     {
       "ticker": "BLUME",
@@ -459,11 +459,6 @@
     {
       "ticker": "KUYAS",
       "fisher": 1.77,
-      "type": "overbought"
-    },
-    {
-      "ticker": "A1YEN",
-      "fisher": 1.7087,
       "type": "overbought"
     },
     {

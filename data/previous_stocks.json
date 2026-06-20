@@ -1,6 +1,26 @@
 {
-  "scanned_at": "2026-06-19T19:28:14.728063",
+  "scanned_at": "2026-06-20T19:12:29.091616",
   "stocks": [
+    {
+      "ticker": "DUNYH",
+      "fisher": -7.4183,
+      "type": "oversold"
+    },
+    {
+      "ticker": "GMSTR",
+      "fisher": -7.4183,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ISATR",
+      "fisher": -7.4183,
+      "type": "oversold"
+    },
+    {
+      "ticker": "UMPAS",
+      "fisher": -7.4183,
+      "type": "oversold"
+    },
     {
       "ticker": "PENGD",
       "fisher": -4.6499,
@@ -19,11 +39,6 @@
     {
       "ticker": "HUBVC",
       "fisher": -4.011,
-      "type": "oversold"
-    },
-    {
-      "ticker": "DUNYH",
-      "fisher": -3.9714,
       "type": "oversold"
     },
     {

@@ -1,6 +1,26 @@
 {
-  "scanned_at": "2026-07-03T19:04:33.033406",
+  "scanned_at": "2026-07-04T18:59:26.909054",
   "stocks": [
+    {
+      "ticker": "DUNYH",
+      "fisher": -7.2361,
+      "type": "oversold"
+    },
+    {
+      "ticker": "GMSTR",
+      "fisher": -7.2361,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ISATR",
+      "fisher": -7.2361,
+      "type": "oversold"
+    },
+    {
+      "ticker": "UMPAS",
+      "fisher": -7.2361,
+      "type": "oversold"
+    },
     {
       "ticker": "GSRAY",
       "fisher": -7.2153,
@@ -74,11 +94,6 @@
     {
       "ticker": "GENKM",
       "fisher": -3.8522,
-      "type": "oversold"
-    },
-    {
-      "ticker": "DUNYH",
-      "fisher": -3.7892,
       "type": "oversold"
     },
     {
@@ -589,11 +604,6 @@
     {
       "ticker": "FADE",
       "fisher": -2.4427,
-      "type": "oversold"
-    },
-    {
-      "ticker": "ISGSY",
-      "fisher": -2.4399,
       "type": "oversold"
     },
     {

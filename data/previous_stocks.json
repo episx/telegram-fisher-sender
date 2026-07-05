@@ -1,13 +1,8 @@
 {
-  "scanned_at": "2026-07-04T18:59:26.909054",
+  "scanned_at": "2026-07-05T19:04:07.795431",
   "stocks": [
     {
       "ticker": "DUNYH",
-      "fisher": -7.2361,
-      "type": "oversold"
-    },
-    {
-      "ticker": "GMSTR",
       "fisher": -7.2361,
       "type": "oversold"
     },

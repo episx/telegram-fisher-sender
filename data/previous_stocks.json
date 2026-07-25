@@ -1,6 +1,21 @@
 {
-  "scanned_at": "2026-07-24T19:14:36.899110",
+  "scanned_at": "2026-07-25T18:55:36.193425",
   "stocks": [
+    {
+      "ticker": "DUNYH",
+      "fisher": -7.2361,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ISATR",
+      "fisher": -7.2361,
+      "type": "oversold"
+    },
+    {
+      "ticker": "UMPAS",
+      "fisher": -7.2361,
+      "type": "oversold"
+    },
     {
       "ticker": "HALKB",
       "fisher": -6.1441,
@@ -54,11 +69,6 @@
     {
       "ticker": "IHLAS",
       "fisher": -3.8785,
-      "type": "oversold"
-    },
-    {
-      "ticker": "DUNYH",
-      "fisher": -3.7892,
       "type": "oversold"
     },
     {

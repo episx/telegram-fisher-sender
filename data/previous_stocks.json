@@ -1,6 +1,21 @@
 {
-  "scanned_at": "2026-07-31T19:11:08.838717",
+  "scanned_at": "2026-08-01T18:56:38.181056",
   "stocks": [
+    {
+      "ticker": "DUNYH",
+      "fisher": -7.4183,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ISATR",
+      "fisher": -7.4183,
+      "type": "oversold"
+    },
+    {
+      "ticker": "UMPAS",
+      "fisher": -7.4183,
+      "type": "oversold"
+    },
     {
       "ticker": "PATEK",
       "fisher": -6.8709,
@@ -52,6 +67,11 @@
       "type": "oversold"
     },
     {
+      "ticker": "BARMA",
+      "fisher": -4.8326,
+      "type": "oversold"
+    },
+    {
       "ticker": "LILAK",
       "fisher": -4.8259,
       "type": "oversold"
@@ -72,11 +92,6 @@
       "type": "oversold"
     },
     {
-      "ticker": "TKNSA",
-      "fisher": -4.6157,
-      "type": "oversold"
-    },
-    {
       "ticker": "IHLAS",
       "fisher": -4.6013,
       "type": "oversold"
@@ -94,11 +109,6 @@
     {
       "ticker": "CEOEM",
       "fisher": -4.3599,
-      "type": "oversold"
-    },
-    {
-      "ticker": "TRGYO",
-      "fisher": -4.2705,
       "type": "oversold"
     },
     {
@@ -139,11 +149,6 @@
     {
       "ticker": "BAKAB",
       "fisher": -4.0845,
-      "type": "oversold"
-    },
-    {
-      "ticker": "DUNYH",
-      "fisher": -3.9714,
       "type": "oversold"
     },
     {
@@ -387,11 +392,6 @@
       "type": "oversold"
     },
     {
-      "ticker": "MACKO",
-      "fisher": -2.811,
-      "type": "oversold"
-    },
-    {
       "ticker": "OSTIM",
       "fisher": -2.8092,
       "type": "oversold"
@@ -534,11 +534,6 @@
     {
       "ticker": "AYDEM",
       "fisher": -2.5079,
-      "type": "oversold"
-    },
-    {
-      "ticker": "MCARD",
-      "fisher": -2.5007,
       "type": "oversold"
     },
     {
@@ -717,11 +712,6 @@
       "type": "oversold"
     },
     {
-      "ticker": "KONYA",
-      "fisher": -2.066,
-      "type": "oversold"
-    },
-    {
       "ticker": "BIZIM",
       "fisher": -2.0457,
       "type": "oversold"
@@ -817,11 +807,6 @@
       "type": "oversold"
     },
     {
-      "ticker": "LYDYE",
-      "fisher": -1.9472,
-      "type": "oversold"
-    },
-    {
       "ticker": "BALAT",
       "fisher": -1.9332,
       "type": "oversold"
@@ -889,6 +874,11 @@
     {
       "ticker": "GIPTA",
       "fisher": -1.8707,
+      "type": "oversold"
+    },
+    {
+      "ticker": "KTLEV",
+      "fisher": -1.8647,
       "type": "oversold"
     },
     {
@@ -1174,11 +1164,6 @@
     {
       "ticker": "TEHOL",
       "fisher": 3.1685,
-      "type": "overbought"
-    },
-    {
-      "ticker": "TKFEN",
-      "fisher": 3.0007,
       "type": "overbought"
     },
     {

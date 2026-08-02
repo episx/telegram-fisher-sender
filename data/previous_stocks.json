@@ -1,5 +1,5 @@
 {
-  "scanned_at": "2026-08-01T18:56:38.181056",
+  "scanned_at": "2026-08-02T18:57:18.820713",
   "stocks": [
     {
       "ticker": "DUNYH",
@@ -92,6 +92,11 @@
       "type": "oversold"
     },
     {
+      "ticker": "TKNSA",
+      "fisher": -4.6157,
+      "type": "oversold"
+    },
+    {
       "ticker": "IHLAS",
       "fisher": -4.6013,
       "type": "oversold"
@@ -109,6 +114,11 @@
     {
       "ticker": "CEOEM",
       "fisher": -4.3599,
+      "type": "oversold"
+    },
+    {
+      "ticker": "TRGYO",
+      "fisher": -4.2705,
       "type": "oversold"
     },
     {
@@ -392,6 +402,11 @@
       "type": "oversold"
     },
     {
+      "ticker": "MACKO",
+      "fisher": -2.811,
+      "type": "oversold"
+    },
+    {
       "ticker": "OSTIM",
       "fisher": -2.8092,
       "type": "oversold"
@@ -534,6 +549,11 @@
     {
       "ticker": "AYDEM",
       "fisher": -2.5079,
+      "type": "oversold"
+    },
+    {
+      "ticker": "MCARD",
+      "fisher": -2.5007,
       "type": "oversold"
     },
     {
@@ -712,6 +732,11 @@
       "type": "oversold"
     },
     {
+      "ticker": "KONYA",
+      "fisher": -2.066,
+      "type": "oversold"
+    },
+    {
       "ticker": "BIZIM",
       "fisher": -2.0457,
       "type": "oversold"
@@ -804,6 +829,11 @@
     {
       "ticker": "BMSTL",
       "fisher": -1.9485,
+      "type": "oversold"
+    },
+    {
+      "ticker": "LYDYE",
+      "fisher": -1.9472,
       "type": "oversold"
     },
     {
@@ -1164,6 +1194,11 @@
     {
       "ticker": "TEHOL",
       "fisher": 3.1685,
+      "type": "overbought"
+    },
+    {
+      "ticker": "TKFEN",
+      "fisher": 3.0007,
       "type": "overbought"
     },
     {

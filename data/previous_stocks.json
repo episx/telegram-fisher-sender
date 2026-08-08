@@ -1,6 +1,21 @@
 {
-  "scanned_at": "2026-08-07T18:41:42.608868",
+  "scanned_at": "2026-08-08T18:24:21.351855",
   "stocks": [
+    {
+      "ticker": "DUNYH",
+      "fisher": -7.4183,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ISATR",
+      "fisher": -7.4183,
+      "type": "oversold"
+    },
+    {
+      "ticker": "UMPAS",
+      "fisher": -7.4183,
+      "type": "oversold"
+    },
     {
       "ticker": "BARMA",
       "fisher": -7.2361,
@@ -29,11 +44,6 @@
     {
       "ticker": "PNSUT",
       "fisher": -4.0829,
-      "type": "oversold"
-    },
-    {
-      "ticker": "DUNYH",
-      "fisher": -3.9714,
       "type": "oversold"
     },
     {

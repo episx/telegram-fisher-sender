@@ -1,24 +1,99 @@
 {
-  "scanned_at": "2026-08-15T18:15:47.573184",
+  "scanned_at": "2026-08-16T18:16:25.947894",
   "stocks": [
     {
-      "ticker": "TRILC",
-      "fisher": -3.4858,
+      "ticker": "DUNYH",
+      "fisher": -7.4183,
       "type": "oversold"
     },
     {
-      "ticker": "ISMEN",
-      "fisher": -3.2259,
+      "ticker": "UMPAS",
+      "fisher": -7.4183,
       "type": "oversold"
     },
     {
-      "ticker": "IDGYO",
-      "fisher": -3.1957,
+      "ticker": "BARMA",
+      "fisher": -6.0806,
       "type": "oversold"
     },
     {
-      "ticker": "USAK",
-      "fisher": -2.7835,
+      "ticker": "ATAKP",
+      "fisher": -3.9712,
+      "type": "oversold"
+    },
+    {
+      "ticker": "SURGY",
+      "fisher": -3.9453,
+      "type": "oversold"
+    },
+    {
+      "ticker": "CRDFA",
+      "fisher": -3.874,
+      "type": "oversold"
+    },
+    {
+      "ticker": "TATEN",
+      "fisher": -3.6657,
+      "type": "oversold"
+    },
+    {
+      "ticker": "BALSU",
+      "fisher": -3.5199,
+      "type": "oversold"
+    },
+    {
+      "ticker": "AKFGY",
+      "fisher": -3.2502,
+      "type": "oversold"
+    },
+    {
+      "ticker": "SUMAS",
+      "fisher": -3.1764,
+      "type": "oversold"
+    },
+    {
+      "ticker": "BORLS",
+      "fisher": -3.1019,
+      "type": "oversold"
+    },
+    {
+      "ticker": "AVTUR",
+      "fisher": -3.01,
+      "type": "oversold"
+    },
+    {
+      "ticker": "PARSN",
+      "fisher": -2.9173,
+      "type": "oversold"
+    },
+    {
+      "ticker": "BULGS",
+      "fisher": -2.7528,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ARTMS",
+      "fisher": -2.6231,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ALVES",
+      "fisher": -2.6046,
+      "type": "oversold"
+    },
+    {
+      "ticker": "TUREX",
+      "fisher": -2.5872,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ATLAS",
+      "fisher": -2.5316,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ENSRI",
+      "fisher": -2.5024,
       "type": "oversold"
     },
     {
@@ -27,23 +102,33 @@
       "type": "oversold"
     },
     {
-      "ticker": "ESCAR",
-      "fisher": -2.4414,
+      "ticker": "OTTO",
+      "fisher": -2.4087,
       "type": "oversold"
     },
     {
-      "ticker": "KONTR",
-      "fisher": -2.327,
+      "ticker": "BTCIM",
+      "fisher": -2.4,
       "type": "oversold"
     },
     {
-      "ticker": "VESBE",
-      "fisher": -2.3207,
+      "ticker": "PAHOL",
+      "fisher": -2.2623,
       "type": "oversold"
     },
     {
-      "ticker": "PETKM",
-      "fisher": -2.1889,
+      "ticker": "FORMT",
+      "fisher": -2.2578,
+      "type": "oversold"
+    },
+    {
+      "ticker": "MSGYO",
+      "fisher": -2.2533,
+      "type": "oversold"
+    },
+    {
+      "ticker": "GZNMI",
+      "fisher": -2.2453,
       "type": "oversold"
     },
     {
@@ -52,13 +137,58 @@
       "type": "oversold"
     },
     {
-      "ticker": "JANTS",
-      "fisher": -2.0649,
+      "ticker": "BURCE",
+      "fisher": -2.0849,
       "type": "oversold"
     },
     {
-      "ticker": "KAYSE",
-      "fisher": -1.9559,
+      "ticker": "HLGYO",
+      "fisher": -2.0815,
+      "type": "oversold"
+    },
+    {
+      "ticker": "CEMTS",
+      "fisher": -2.079,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ELITE",
+      "fisher": -2.0614,
+      "type": "oversold"
+    },
+    {
+      "ticker": "MMCAS",
+      "fisher": -2.0458,
+      "type": "oversold"
+    },
+    {
+      "ticker": "AKYHO",
+      "fisher": -2.0207,
+      "type": "oversold"
+    },
+    {
+      "ticker": "EKIZ",
+      "fisher": -2.02,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ARCLK",
+      "fisher": -1.9804,
+      "type": "oversold"
+    },
+    {
+      "ticker": "NIBAS",
+      "fisher": -1.9437,
+      "type": "oversold"
+    },
+    {
+      "ticker": "BEYAZ",
+      "fisher": -1.9133,
+      "type": "oversold"
+    },
+    {
+      "ticker": "HEDEF",
+      "fisher": -1.8981,
       "type": "oversold"
     },
     {
@@ -67,18 +197,73 @@
       "type": "oversold"
     },
     {
+      "ticker": "BMSCH",
+      "fisher": -1.8899,
+      "type": "oversold"
+    },
+    {
+      "ticker": "MNDTR",
+      "fisher": -1.8884,
+      "type": "oversold"
+    },
+    {
       "ticker": "CCOLA",
       "fisher": -1.8554,
       "type": "oversold"
     },
     {
-      "ticker": "EMKEL",
-      "fisher": -1.78,
+      "ticker": "QNBTR",
+      "fisher": -1.8047,
       "type": "oversold"
     },
     {
-      "ticker": "VESTL",
-      "fisher": -1.6929,
+      "ticker": "MOBTL",
+      "fisher": -1.7922,
+      "type": "oversold"
+    },
+    {
+      "ticker": "BIMAS",
+      "fisher": -1.7563,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ENPRA",
+      "fisher": -1.7515,
+      "type": "oversold"
+    },
+    {
+      "ticker": "NTGAZ",
+      "fisher": -1.7418,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ORZAX",
+      "fisher": -1.7405,
+      "type": "oversold"
+    },
+    {
+      "ticker": "BASGZ",
+      "fisher": -1.7296,
+      "type": "oversold"
+    },
+    {
+      "ticker": "BYDNR",
+      "fisher": -1.705,
+      "type": "oversold"
+    },
+    {
+      "ticker": "NUGYO",
+      "fisher": -1.7031,
+      "type": "oversold"
+    },
+    {
+      "ticker": "AKFYE",
+      "fisher": -1.7017,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ENTRA",
+      "fisher": -1.699,
       "type": "oversold"
     },
     {
@@ -87,8 +272,13 @@
       "type": "oversold"
     },
     {
-      "ticker": "GSDHO",
-      "fisher": -1.6105,
+      "ticker": "ARFYE",
+      "fisher": -1.6435,
+      "type": "oversold"
+    },
+    {
+      "ticker": "CGCAM",
+      "fisher": -1.6424,
       "type": "oversold"
     },
     {
@@ -97,23 +287,48 @@
       "type": "oversold"
     },
     {
-      "ticker": "HEKTS",
-      "fisher": -1.5952,
+      "ticker": "IHGZT",
+      "fisher": -1.531,
       "type": "oversold"
     },
     {
-      "ticker": "VERUS",
-      "fisher": 7.2165,
+      "ticker": "HUBVC",
+      "fisher": -1.527,
+      "type": "oversold"
+    },
+    {
+      "ticker": "AEFES",
+      "fisher": -1.5152,
+      "type": "oversold"
+    },
+    {
+      "ticker": "CRFSA",
+      "fisher": 6.1633,
       "type": "overbought"
     },
     {
-      "ticker": "TKFEN",
-      "fisher": 7.2135,
+      "ticker": "IEYHO",
+      "fisher": 3.9969,
       "type": "overbought"
     },
     {
-      "ticker": "KRONT",
-      "fisher": 3.2237,
+      "ticker": "ETYAT",
+      "fisher": 3.3153,
+      "type": "overbought"
+    },
+    {
+      "ticker": "TMPOL",
+      "fisher": 3.2871,
+      "type": "overbought"
+    },
+    {
+      "ticker": "FORTE",
+      "fisher": 3.2558,
+      "type": "overbought"
+    },
+    {
+      "ticker": "SVGYO",
+      "fisher": 3.1478,
       "type": "overbought"
     },
     {
@@ -127,33 +342,98 @@
       "type": "overbought"
     },
     {
-      "ticker": "PRKME",
-      "fisher": 2.6721,
+      "ticker": "AKMGY",
+      "fisher": 2.752,
       "type": "overbought"
     },
     {
-      "ticker": "TUPRS",
-      "fisher": 2.6613,
+      "ticker": "OFSYM",
+      "fisher": 2.7243,
       "type": "overbought"
     },
     {
-      "ticker": "YKBNK",
-      "fisher": 2.5915,
+      "ticker": "BLUME",
+      "fisher": 2.5503,
       "type": "overbought"
     },
     {
-      "ticker": "UFUK",
-      "fisher": 2.4012,
+      "ticker": "GLRMK",
+      "fisher": 2.4825,
       "type": "overbought"
     },
     {
-      "ticker": "AKBNK",
-      "fisher": 1.9975,
+      "ticker": "POLHO",
+      "fisher": 2.4561,
+      "type": "overbought"
+    },
+    {
+      "ticker": "TBORG",
+      "fisher": 2.4119,
+      "type": "overbought"
+    },
+    {
+      "ticker": "OZSUB",
+      "fisher": 2.3978,
+      "type": "overbought"
+    },
+    {
+      "ticker": "AZTEK",
+      "fisher": 2.3814,
+      "type": "overbought"
+    },
+    {
+      "ticker": "AYGAZ",
+      "fisher": 2.3146,
+      "type": "overbought"
+    },
+    {
+      "ticker": "EMPAE",
+      "fisher": 2.2538,
+      "type": "overbought"
+    },
+    {
+      "ticker": "ALTNY",
+      "fisher": 2.179,
+      "type": "overbought"
+    },
+    {
+      "ticker": "ASTOR",
+      "fisher": 2.1569,
+      "type": "overbought"
+    },
+    {
+      "ticker": "ODINE",
+      "fisher": 2.1415,
+      "type": "overbought"
+    },
+    {
+      "ticker": "OZATD",
+      "fisher": 2.0938,
+      "type": "overbought"
+    },
+    {
+      "ticker": "TCKRC",
+      "fisher": 2.0102,
+      "type": "overbought"
+    },
+    {
+      "ticker": "MPARK",
+      "fisher": 1.9777,
+      "type": "overbought"
+    },
+    {
+      "ticker": "ERSU",
+      "fisher": 1.9363,
       "type": "overbought"
     },
     {
       "ticker": "DERHL",
       "fisher": 1.917,
+      "type": "overbought"
+    },
+    {
+      "ticker": "CEOEM",
+      "fisher": 1.9074,
       "type": "overbought"
     },
     {
@@ -167,13 +447,58 @@
       "type": "overbought"
     },
     {
-      "ticker": "SAHOL",
-      "fisher": 1.7039,
+      "ticker": "FENER",
+      "fisher": 1.6818,
+      "type": "overbought"
+    },
+    {
+      "ticker": "FLAP",
+      "fisher": 1.6798,
       "type": "overbought"
     },
     {
       "ticker": "HURGZ",
       "fisher": 1.669,
+      "type": "overbought"
+    },
+    {
+      "ticker": "MOGAN",
+      "fisher": 1.6061,
+      "type": "overbought"
+    },
+    {
+      "ticker": "ASELS",
+      "fisher": 1.604,
+      "type": "overbought"
+    },
+    {
+      "ticker": "ESCOM",
+      "fisher": 1.575,
+      "type": "overbought"
+    },
+    {
+      "ticker": "GSRAY",
+      "fisher": 1.5719,
+      "type": "overbought"
+    },
+    {
+      "ticker": "GOODY",
+      "fisher": 1.556,
+      "type": "overbought"
+    },
+    {
+      "ticker": "FRMPL",
+      "fisher": 1.5497,
+      "type": "overbought"
+    },
+    {
+      "ticker": "BETAE",
+      "fisher": 1.5393,
+      "type": "overbought"
+    },
+    {
+      "ticker": "ANSGR",
+      "fisher": 1.5068,
       "type": "overbought"
     }
   ]

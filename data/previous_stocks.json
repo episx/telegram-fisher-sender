@@ -1,4 +1,25 @@
 {
-  "scanned_at": "2026-08-29T01:20:57.164453",
-  "stocks": []
+  "scanned_at": "2026-08-29T20:13:16.889917",
+  "stocks": [
+    {
+      "ticker": "ISGSY",
+      "fisher": -2.1891,
+      "type": "oversold"
+    },
+    {
+      "ticker": "USDTR",
+      "fisher": 7.4183,
+      "type": "overbought"
+    },
+    {
+      "ticker": "OPX30",
+      "fisher": 3.2842,
+      "type": "overbought"
+    },
+    {
+      "ticker": "QTEMZ",
+      "fisher": 2.5391,
+      "type": "overbought"
+    }
+  ]
 }

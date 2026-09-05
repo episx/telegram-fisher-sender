@@ -1,6 +1,21 @@
 {
-  "scanned_at": "2026-09-04T20:04:45.624182",
+  "scanned_at": "2026-09-05T19:44:57.271905",
   "stocks": [
+    {
+      "ticker": "DUNYH",
+      "fisher": -7.4183,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ISATR",
+      "fisher": -7.4183,
+      "type": "oversold"
+    },
+    {
+      "ticker": "UMPAS",
+      "fisher": -7.4183,
+      "type": "oversold"
+    },
     {
       "ticker": "AZTEK",
       "fisher": -7.2465,
@@ -164,11 +179,6 @@
     {
       "ticker": "SSAAT",
       "fisher": -3.9847,
-      "type": "oversold"
-    },
-    {
-      "ticker": "DUNYH",
-      "fisher": -3.9714,
       "type": "oversold"
     },
     {

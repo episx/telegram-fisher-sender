@@ -1,11 +1,6 @@
 {
-  "scanned_at": "2026-09-12T19:55:02.031530",
+  "scanned_at": "2026-09-13T20:02:33.178455",
   "stocks": [
-    {
-      "ticker": "KORDS",
-      "fisher": -4.9074,
-      "type": "oversold"
-    },
     {
       "ticker": "ODINE",
       "fisher": -4.6848,
@@ -24,11 +19,6 @@
     {
       "ticker": "MOGAN",
       "fisher": -3.5745,
-      "type": "oversold"
-    },
-    {
-      "ticker": "ONRYT",
-      "fisher": -3.3884,
       "type": "oversold"
     },
     {

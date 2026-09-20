@@ -1,14 +1,9 @@
 {
-  "scanned_at": "2026-09-19T19:48:41.126229",
+  "scanned_at": "2026-09-20T20:01:52.059323",
   "stocks": [
     {
       "ticker": "GUNDG",
       "fisher": -7.2224,
-      "type": "oversold"
-    },
-    {
-      "ticker": "HRKET",
-      "fisher": -6.9221,
       "type": "oversold"
     },
     {
@@ -57,11 +52,6 @@
       "type": "oversold"
     },
     {
-      "ticker": "AKFYE",
-      "fisher": -3.7268,
-      "type": "oversold"
-    },
-    {
       "ticker": "SSAAT",
       "fisher": -3.7244,
       "type": "oversold"
@@ -74,11 +64,6 @@
     {
       "ticker": "MEYSU",
       "fisher": -3.4483,
-      "type": "oversold"
-    },
-    {
-      "ticker": "MEGMT",
-      "fisher": -3.3665,
       "type": "oversold"
     },
     {

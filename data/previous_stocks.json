@@ -1,4 +1,275 @@
 {
-  "scanned_at": "2026-10-12T23:59:16.324839",
-  "stocks": []
+  "scanned_at": "2026-10-15T20:45:26.403906",
+  "stocks": [
+    {
+      "ticker": "RALYH",
+      "fisher": -7.2361,
+      "type": "oversold"
+    },
+    {
+      "ticker": "PEKGY",
+      "fisher": -7.2361,
+      "type": "oversold"
+    },
+    {
+      "ticker": "VESBE",
+      "fisher": -4.4788,
+      "type": "oversold"
+    },
+    {
+      "ticker": "PAGYO",
+      "fisher": -4.0313,
+      "type": "oversold"
+    },
+    {
+      "ticker": "TUCLK",
+      "fisher": -3.703,
+      "type": "oversold"
+    },
+    {
+      "ticker": "MERIT",
+      "fisher": -3.2731,
+      "type": "oversold"
+    },
+    {
+      "ticker": "EDIP",
+      "fisher": -3.2544,
+      "type": "oversold"
+    },
+    {
+      "ticker": "TTRAK",
+      "fisher": -3.1479,
+      "type": "oversold"
+    },
+    {
+      "ticker": "CEMAS",
+      "fisher": -3.1363,
+      "type": "oversold"
+    },
+    {
+      "ticker": "KLKIM",
+      "fisher": -3.092,
+      "type": "oversold"
+    },
+    {
+      "ticker": "TMSN",
+      "fisher": -3.0143,
+      "type": "oversold"
+    },
+    {
+      "ticker": "HURGZ",
+      "fisher": -2.9104,
+      "type": "oversold"
+    },
+    {
+      "ticker": "FLAP",
+      "fisher": -2.8166,
+      "type": "oversold"
+    },
+    {
+      "ticker": "JANTS",
+      "fisher": -2.6924,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ECILC",
+      "fisher": -2.5417,
+      "type": "oversold"
+    },
+    {
+      "ticker": "HALKB",
+      "fisher": -2.5214,
+      "type": "oversold"
+    },
+    {
+      "ticker": "VESTL",
+      "fisher": -2.5205,
+      "type": "oversold"
+    },
+    {
+      "ticker": "KLNMA",
+      "fisher": -2.505,
+      "type": "oversold"
+    },
+    {
+      "ticker": "MGROS",
+      "fisher": -2.428,
+      "type": "oversold"
+    },
+    {
+      "ticker": "FROTO",
+      "fisher": -2.3447,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ISMEN",
+      "fisher": -2.3391,
+      "type": "oversold"
+    },
+    {
+      "ticker": "KONTR",
+      "fisher": -2.3192,
+      "type": "oversold"
+    },
+    {
+      "ticker": "INTEM",
+      "fisher": -2.3104,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ALKIM",
+      "fisher": -2.2988,
+      "type": "oversold"
+    },
+    {
+      "ticker": "KONYA",
+      "fisher": -2.2918,
+      "type": "oversold"
+    },
+    {
+      "ticker": "KARSN",
+      "fisher": -2.0574,
+      "type": "oversold"
+    },
+    {
+      "ticker": "KAYSE",
+      "fisher": -2.0561,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ENKAI",
+      "fisher": -2.0127,
+      "type": "oversold"
+    },
+    {
+      "ticker": "TEZOL",
+      "fisher": -1.9962,
+      "type": "oversold"
+    },
+    {
+      "ticker": "NTHOL",
+      "fisher": -1.9815,
+      "type": "oversold"
+    },
+    {
+      "ticker": "MEGAP",
+      "fisher": -1.9737,
+      "type": "oversold"
+    },
+    {
+      "ticker": "THYAO",
+      "fisher": -1.9412,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ODAS",
+      "fisher": -1.9365,
+      "type": "oversold"
+    },
+    {
+      "ticker": "TOASO",
+      "fisher": -1.912,
+      "type": "oversold"
+    },
+    {
+      "ticker": "GENTS",
+      "fisher": -1.9068,
+      "type": "oversold"
+    },
+    {
+      "ticker": "KNFRT",
+      "fisher": -1.8623,
+      "type": "oversold"
+    },
+    {
+      "ticker": "SMART",
+      "fisher": -1.8475,
+      "type": "oversold"
+    },
+    {
+      "ticker": "OYAKC",
+      "fisher": -1.6796,
+      "type": "oversold"
+    },
+    {
+      "ticker": "GUBRF",
+      "fisher": -1.6345,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ERBOS",
+      "fisher": -1.6055,
+      "type": "oversold"
+    },
+    {
+      "ticker": "SILVR",
+      "fisher": -1.5905,
+      "type": "oversold"
+    },
+    {
+      "ticker": "ASELS",
+      "fisher": -1.5712,
+      "type": "oversold"
+    },
+    {
+      "ticker": "AKSA",
+      "fisher": -1.5672,
+      "type": "oversold"
+    },
+    {
+      "ticker": "TTKOM",
+      "fisher": -1.5042,
+      "type": "oversold"
+    },
+    {
+      "ticker": "GLYHO",
+      "fisher": 3.6577,
+      "type": "overbought"
+    },
+    {
+      "ticker": "FRIGO",
+      "fisher": 3.02,
+      "type": "overbought"
+    },
+    {
+      "ticker": "GSDHO",
+      "fisher": 2.9851,
+      "type": "overbought"
+    },
+    {
+      "ticker": "HDFGS",
+      "fisher": 2.4537,
+      "type": "overbought"
+    },
+    {
+      "ticker": "INDES",
+      "fisher": 2.157,
+      "type": "overbought"
+    },
+    {
+      "ticker": "POLTK",
+      "fisher": 1.936,
+      "type": "overbought"
+    },
+    {
+      "ticker": "GARAN",
+      "fisher": 1.725,
+      "type": "overbought"
+    },
+    {
+      "ticker": "CCOLA",
+      "fisher": 1.6915,
+      "type": "overbought"
+    },
+    {
+      "ticker": "RTALB",
+      "fisher": 1.578,
+      "type": "overbought"
+    },
+    {
+      "ticker": "VERUS",
+      "fisher": 1.5209,
+      "type": "overbought"
+    }
+  ]
 }
